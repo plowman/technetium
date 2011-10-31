@@ -20,12 +20,11 @@ import android.content.Intent;
 import my.package.name.MyActivity; /*Change to activity under test*/
 import com.plowman.technetium.TechnetiumTestCase;
 import com.plowman.technetium.TechnetiumTestRunner;
-import com.mogwee.util.MogweeJSInterface;
 
 public class MyTestSuite extends TechnetiumTestCase</*Change to activity under test*/ MyActivity> {
 
   public MyTestSuite() {
-    super(/*Change to activity under test*/ MainActivity.class);
+    super(/*Change to activity under test*/ MyActivity.class);
   }
 
   public void testSomeStuff() {
